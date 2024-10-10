@@ -1,38 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<style type="text/css">
-		.clear-border{
-			border:1px solid #fff;
-		}
-	</style>
-	<head>
-		<title>Chris Meono - Software Engineer</title>
-	</head>
-	<body>
-		<div class="col-xs-12 col-sm-8 col-md-6 col-md-6">
-			<ul class="list-group">
-				<li class="list-group-item clear-border" >
-					<h1>
-						Chris Meono
-					</h1>
-				</li>
-				<li class="list-group-item clear-border" >I'm a software engineer.</li>
-				<li class="list-group-item clear-border">I live in sunny Venice Beach, CA.</li>
-				<li class="list-group-item clear-border">I'm an amateur chef. I can make a mean mexican breakfast and beef bourguignon.</li>
-				<li class="list-group-item clear-border">I have a fluffy 25 lbs sidekick named Alby.</li>
-				<li class="list-group-item clear-border">Want to chat? Email me at chrismeono1022 AT gmail dot com.</li>
-				<li class="list-group-item clear-border">
-					<div class="row">
-						<div class="col-xs-2"><a href="https://s3-us-west-1.amazonaws.com/chris-web/chris_meono_resume.pdf">Resume</a></div>
-						<div class="col-xs-2"><a href="https://github.com/chrismeono1022">Github</a></div>
-						<div class="col-xs-2"><a href="https://www.linkedin.com/in/chrismeono">LinkedIn</a></div>
-					</div>
-				</li>
-			</ul>
-		</div>
-		<div class="hidden-xs col-sm-4 col-md-6 col-md-6">
-			<img src="https://s3-us-west-1.amazonaws.com/chris-web/photo.png" class="img-thumbnail">
-		</div>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+            font-size: 22px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .profile-pic {
+            margin: 20px auto;
+            border-radius: 50%;
+            width: 20%;
+            height: 20%;
+        }
+        .contact-info a {
+            text-decoration: none;
+            color: #1a73e8;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://chris-web.s3.us-west-1.amazonaws.com/profile_pic.jpg" alt="Chris Meono" class="profile-pic">
+
+        <h1>Howdy! I'm Chris Meono.</h1>
+
+        <p>I'm a product focused software engineer.</p>
+
+        <p>In my free time I love to cook, enjoy a glass of wine and hang out with my cat and dog.</p>
+
+        <p>Want to chat? Please reach out below.</p>
+
+        <div class="contact-info">
+            <p>Email: <a href="mailto:chrismeono1022@gmail.com">chrismeono1022@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/chrismeono/">linkedin.com/in/chrismeono/</a></p>
+        </div>
+    </div>
+
+</body>
 </html>
